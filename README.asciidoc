@@ -1,45 +1,5 @@
 = programming challenge
 
-This repository provides the project scaffold for a simple
-programming challenge. Though the challenge is very simple
-and a rather synthetic use-case, your results are a helpful
-starting point to discuss your programming flavor, skills
-and methodology.
-
-== Goal
-
-Implement a solution for the given tasks which aims for
-
-* robustness & correctness
-* readability & maintainability
-* clean software design & architecture
-
-
-=== Task
-
-Weather::
-    In `weather.csv` you’ll find the daily weather data of a single month.
-    Read the file, then output the day number (column one `Day`) of the day with
-    the smallest temperature spread (difference between maximum &
-    minimum temperature of the day.)
-    The maximum temperature is the second column `MxT`, the minimum
-    temperature the third column `MnT`.
-
-Football::
-    The `football.csv` file contains results of the
-    English Premier League. The columns labeled ‘Goals’
-    and ‘Goals Allowed’ contain the total number of goals scored
-    by and against each team (so Arsenal scored
-    79 goals themselves and had 36 goals scored against them).
-    Read the file, then print the name of the team with the smallest
-    distance (absolute difference) between ‘Goals’ and ‘Goals Allowed’.
-
-Task::
-    1. Try to write a single program, which is able to solve the "Weather" 
-       challenge. 
-    2. Then try to refactor & extend your solution, that it additionally
-       supports the Football challenge. 
-
 == Getting started
 
 === Getting a copy
